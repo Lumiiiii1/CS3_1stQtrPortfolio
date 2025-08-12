@@ -4,11 +4,17 @@
     <p>Toji Fushiguro is so cool</p>
     
    <script>
-     let age = 14;
-     let maxAge = 100;
-     let numPerDay = 5;
-     totalRequired=(numPerDay * 365) * (maxAge - age) 
-     document.write ("You will need " + totalRequired + " snacks to last you until the ripe old age of " + maxAge);
+     let age = window.prompt("Enter your age: ","15");
+     let maxAge = window.prompt("How long do you plan to live?:","100")
+     let numPerDay = window.prompt("how many snacks do you eats in a day?: " , "3");
+     let well = window.confirm ("Are you sure " + ", " + age + ", "+ maxAge + ", " + numPerDay + " are true?");
+     if(well == true){
+      totalRequired=(numPerDay * 365) * (maxAge - age);
+      window.confirm("You will need " + totalRequired + " snacks to last you until the ripe old age of " + maxAge);
+     }
+     else{
+      window.confirm("What?");
+     }
    </script>
    
 
