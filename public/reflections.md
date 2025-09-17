@@ -79,6 +79,6 @@ While I am familiar with them because of c++, I still find myself confused. Spec
 
  While I found it quite simple, I feel like it wasn't too much of a challenge. We kind of did the same thing here as in the Weird Condition if I recall correctly, but I just found that the 4th Graded Exercise wasn't as memorable as the others. It's not bad though cause I do remember being able to do it quickly, but I just feel like there could've been more.
 
- # That's All! Thank you po! <3
+ # That's All! Thank you po! <3 <3
 
 PS, you're a very good teacher in CS po so thank you for teaching us well :3
